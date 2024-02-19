@@ -15,7 +15,7 @@ export default function Home() {
 
         <div className="mt-24 ml-72  rounded-lg w-[592px] h-[298px]">
           <div className="mb-8 r-5">
-            <Image src="/bro1.jpg" alt="" width={500} height={500} />
+            <Image src="/bro1.svg" alt="" width={500} height={500} />
           </div>
         </div>
       </div>
