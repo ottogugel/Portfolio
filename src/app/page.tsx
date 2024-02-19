@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { Headline } from "../components/headline";
 import Image from "next/image";
 import { AboutSection } from "@/components/aboutsection";
+import { ProjectsSections } from "@/components/projectssection";
 
 export default function Home() {
   return (
@@ -22,6 +23,10 @@ export default function Home() {
 
       <div className="w-full h-[620px]">
         <AboutSection />
+      </div>
+
+      <div className="flex justify-center items-center border border-b w-full h-[680px]">
+      <ProjectsSections />
       </div>
     </main>
   );
