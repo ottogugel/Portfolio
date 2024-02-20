@@ -25,7 +25,7 @@ export default function Home() {
         <AboutSection />
       </div>
 
-      <div className="flex justify-center items-center border border-b w-full h-[680px]">
+      <div className="flex justify-center items-center w-full h-[680px]">
       <ProjectsSections />
       </div>
     </main>

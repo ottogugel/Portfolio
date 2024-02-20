@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundColor: {
         surface: "#171023",
+        surfaceprimary: "#2C243B",
         surfaces: "#413A4F",
         purples: "#8A42DB",
       },
