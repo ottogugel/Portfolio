@@ -1,4 +1,3 @@
-import { ReadCvLogo } from "@phosphor-icons/react";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
 import Image from "next/image";
 
@@ -13,7 +12,7 @@ export function ProjectsSections() {
       <div className="grid grid-cols-3 w-[1216px] h-[344px] mt-10">
         <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6  rounded-lg">
           <Image
-            src="/doctorcare.svg"
+            src="/esports.svg"
             alt=""
             width={336}
             height={160}
@@ -21,18 +20,16 @@ export function ProjectsSections() {
           />
           <div className="flex flex-row justify-between px-5 pt-4">
             <strong className="text-primary text-xl font-medium flex">
-              DoctorCare
+              eSports
             </strong>
             <div className="flex gap-3">
-              <Image src="/css.svg" alt="" width={24} height={24} />
-              <Image src="/html.svg" alt="" width={24} height={24} />
-              <Image src="/js.svg" alt="" width={24} height={24} />
+              <Image src="/react.svg" alt="" width={24} height={24} />
+              <Image src="/typescript.svg" alt="" width={24} height={24} />
+              <Image src="/tailwindcss.svg" alt="" width={24} height={24} />
             </div>
           </div>
           <p className="text-secondary pt-3 text-base text-left px-5">
-            A project with RocketSeat inspired by a healthcare website. Using
-            markup, styling and programming languages: HTML, CSS and JavaScript
-            and the JS ScrollReveal Library.
+
           </p>
         </div>
         <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6  rounded-lg">
@@ -48,9 +45,9 @@ export function ProjectsSections() {
               Orders
             </strong>
             <div className="flex gap-3">
-              <Image src="/tailwindcss.svg" alt="" width={24} height={24} />
               <Image src="/reactnative.svg" alt="" width={24} height={24} />
               <Image src="/typescript.svg" alt="" width={24} height={24} />
+              <Image src="/tailwindcss.svg" alt="" width={24} height={24} />
             </div>
           </div>
           <p className="text-secondary pt-3 text-base text-left px-5">

@@ -20,7 +20,7 @@ export function AboutSection() {
         </h1>
         <p className="text-primary font-medium text-2xl break pr-96 mt-2">
           I'm a passionate software developer looking for my first international
-          oppotunity
+          opportunity
         </p>
         <span className="text-secondary flex mt-5 text-base font-normal mr-96">
           Beyond coding, im a coffee enthusiast, a cat lover, and a self-taught
