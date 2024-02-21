@@ -22,10 +22,10 @@ export function Headline() {
       </p>
 
       <div className="flex flex-row items-center gap-3 mt-10">
-        <button className="rounded-lg bg-surfaces hover:bg-white/30 transition-colors duration-300 w-40 h-14 text-primary font-normal flex items-center justify-center">
+        <button className="rounded-lg bg-surfaces hover:bg-white/30 transition-colors duration-300 w-40 h-14 text-primary font-medium flex items-center justify-center">
           <ReadCvLogo size={24} className="mr-1" /> My Resume
         </button>
-        <button className="rounded-lg bg-purples hover:bg-purple-500/90 transition-colors duration-300 w-40 h-14 text-buttonprimary font-normal flex items-center justify-center">
+        <button className="rounded-lg bg-purples hover:bg-purple-500/90 transition-colors duration-300 w-40 h-14 text-buttonprimary font-medium flex items-center justify-center">
           Get in Touch <ArrowRight size={24} />
         </button>
       </div>

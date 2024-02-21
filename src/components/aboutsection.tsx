@@ -29,7 +29,7 @@ export function AboutSection() {
           company in the United States or Europe and am excited about the
           prospect of relocating to pursue new challenges.
         </span>
-        <button className="text-buttonprimary text-medium text-base flex bg-purples hover:bg-purple-800 rounded-lg w-40 h-14 items-center justify-center mt-8">
+        <button className="text-buttonprimary font-medium text-base flex bg-purples hover:bg-purple-800 rounded-lg w-40 h-14 items-center justify-center mt-8">
           <ReadCvLogo size={24} className="mr-1" /> My Resume
         </button>
       </div>
