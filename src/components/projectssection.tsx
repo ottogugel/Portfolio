@@ -1,7 +1,7 @@
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
 import Image from "next/image";
 
-export function ProjectsSections() {
+export function ProjectsSection() {
   return (
     <div className="text-center">
       <h1 className="text-strokehigh">Projects</h1>
