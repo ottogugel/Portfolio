@@ -1,5 +1,4 @@
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
-import { ReadCvLogo } from "@phosphor-icons/react/dist/ssr/ReadCvLogo";
 import { Kalam } from "next/font/google";
 import Image from "next/image";
 
@@ -7,7 +6,7 @@ const kalam = Kalam({ weight: "400", subsets: ["latin"] });
 
 export function ContactSection() {
   return (
-    <div className="rounded-lg w-[1820px] h-[528px] ml-10 bg-surfaces flex flex-row items-center justify-between">
+    <div className="rounded-lg w-[1820px] h-[528px] ml-10 bg-surfaceprimary flex flex-row items-center justify-between">
       <div className="ml-32">
         <Image src="/avatar.svg" alt="" width={200} height={200} />
         <h1
@@ -21,7 +20,7 @@ export function ContactSection() {
         <span className="text-secondary flex mt-5 text-xs font-normal gap-1">
           I’m always up for a chat. Pop me an email at
           <a
-            href=""
+            href="mailto:ottogugel99@gmail.com"
             className={`${kalam.className}text-base text-strokehigh underline`}
           >
             ottogugel99@gmail.com
@@ -29,19 +28,41 @@ export function ContactSection() {
           or give me a shout on social media.
         </span>
         <div className="mt-4 flex flex-row gap-3">
-          <button className="rounded-lg border-yellow-500 border size-10">
-            <Image src="/github.svg" alt="" width={24} height={24} className="ml-1.5" />
-          </button>
-          <button className="rounded-lg border-yellow-500 border size-10">
-            <Image src="/linkedin.svg" alt="" width={24} height={24} className="ml-1.5" />
-          </button>
+          <a
+            href="https://github.com/ottogugel"
+            className="rounded-lg bg-surfaces size-10 flex items-center justify-center"
+          >
+            <Image
+              src="/github.svg"
+              alt=""
+              width={24}
+              height={24}
+              className=""
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ottogugel/"
+            className="rounded-lg bg-surfaces size-10 flex items-center justify-center"
+          >
+            <Image
+              src="/linkedin.svg"
+              alt=""
+              width={24}
+              height={24}
+              className=""
+            />
+          </a>
         </div>
       </div>
       <div className="mr-96">
         <form>
-          <h1>Input</h1>
-          <p>Label</p>
-          <button className="text-buttonprimary font-medium text-base flex bg-purples hover:bg-purple-800 rounded-lg w-40 h-14 items-center justify-center mt-8">
+          <h1>Input Nome</h1>
+          <h1>Input Email</h1>
+          <h1>Input Sua mensagem</h1>
+          <button
+            type="submit"
+            className="text-buttonprimary font-medium text-base flex bg-purples hover:bg-purple-800 rounded-lg w-56 h-14 items-center justify-center mt-8"
+          >
             Send me a message <ArrowRight size={24} />
           </button>
         </form>
