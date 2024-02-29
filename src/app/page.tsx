@@ -4,11 +4,12 @@ import Image from "next/image";
 import { AboutSection } from "@/components/aboutsection";
 import { ProjectsSection } from "@/components/projectssection";
 import { ContactSection } from "@/components/contactsection";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-row justify-between mt-5">
+      <div className="w-[1903px] h-[80px] mt-5">
         <Navbar />
       </div>
 
@@ -26,12 +27,16 @@ export default function Home() {
         <AboutSection />
       </div>
 
-      <div className="flex justify-center items-center w-full h-[680px]">
+      <div className="w-[1903px] h-[680px]">
       <ProjectsSection />
       </div>
 
       <div className="w-full h-[608px]">
         <ContactSection />
+      </div>
+
+      <div className="w-full h-[112px] border border-b">
+        <Footer />
       </div>
     </main>
   );

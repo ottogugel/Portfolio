@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export function ProjectsSection() {
   return (
-    <div className="text-center">
+    <div className="flex flex-col items-center">
       <h1 className="text-strokehigh">Projects</h1>
       <p className="text-primary font-medium text-2xl mt-2">
         Take a look at my highlighted projects
       </p>
 
       <div className="grid grid-cols-3 w-[1216px] h-[344px] mt-10">
-        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6  rounded-lg">
+        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg hover:scale-110 duration-500">
           <Image
             src="/esports.svg"
             alt=""
@@ -29,10 +29,11 @@ export function ProjectsSection() {
             </div>
           </div>
           <p className="text-secondary pt-3 text-base text-left px-5">
-
+            NLW eSports has developed a web and mobile platform where gamers can
+            find partners for their favorite games.
           </p>
         </div>
-        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6  rounded-lg">
+        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg hover:scale-110 duration-500">
           <Image
             src="/orders.svg"
             alt=""
@@ -55,7 +56,7 @@ export function ProjectsSection() {
             was developed.
           </p>
         </div>
-        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6  rounded-lg">
+        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg hover:scale-110 duration-500">
           <Image
             src="/doctorcare2.svg"
             alt=""
@@ -74,9 +75,8 @@ export function ProjectsSection() {
             </div>
           </div>
           <p className="text-secondary pt-3 text-base text-left px-5">
-            A project with RocketSeat inspired by a healthcare website. Using
-            markup, styling and programming languages: HTML, CSS and JavaScript
-            and the JS ScrollReveal Library.
+            A project inspired by a healthcare website. Using markup, styling
+            and programming languages and the JS ScrollReveal Library.
           </p>
         </div>
       </div>

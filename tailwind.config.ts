@@ -20,6 +20,9 @@ const config: Config = {
         buttonprimary: "#F5F6F6",
         strokehigh: "#7DFFAF",
       },
+      borderColor: {
+        highlight: "#7DFFAF",
+      },
     },
   },
   plugins: [],
