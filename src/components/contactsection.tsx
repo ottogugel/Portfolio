@@ -13,7 +13,7 @@ export function ContactSection() {
 
   const form = useRef();
 
-  const sendEmail = (e: { preventDefault: () => void; }) => {
+  const sendEmail = (e) => {
     e.preventDefault();
     setSuccess(false)
     setError(false)
