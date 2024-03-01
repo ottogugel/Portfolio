@@ -28,14 +28,14 @@ export default function Home() {
       </div>
 
       <div className="w-[1903px] h-[680px]">
-      <ProjectsSection />
+        <ProjectsSection />
       </div>
 
       <div className="w-full h-[608px]">
         <ContactSection />
       </div>
 
-      <div className="w-full h-[112px] border border-b">
+      <div className="w-[1903px] h-28">
         <Footer />
       </div>
     </main>

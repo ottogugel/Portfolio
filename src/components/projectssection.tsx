@@ -10,7 +10,7 @@ export function ProjectsSection() {
       </p>
 
       <div className="grid grid-cols-3 w-[1216px] h-[344px] mt-10">
-        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg hover:scale-110 duration-500">
+        <div className="w-[384px] h-[344px] bg-surfaceprimary hover:scale-110 duration-500 pt-6 rounded-lg ">
           <Image
             src="/esports.svg"
             alt=""
@@ -33,7 +33,7 @@ export function ProjectsSection() {
             find partners for their favorite games.
           </p>
         </div>
-        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg hover:scale-110 duration-500">
+        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg hover:scale-110 duration-500 ">
           <Image
             src="/orders.svg"
             alt=""
