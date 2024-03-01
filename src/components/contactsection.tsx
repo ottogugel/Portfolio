@@ -11,9 +11,9 @@ export function ContactSection() {
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState(false);
 
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: { preventDefault: () => void; } ) => {
     e.preventDefault();
     setSuccess(false)
     setError(false)
