@@ -1,0 +1,3 @@
+Implementar o EmailJS
+
+dentro da tag form incluir onSubmit={sendEmail} ref={form}

@@ -3,11 +3,15 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
 import { Kalam } from "next/font/google";
 import { useRef, useState } from "react";
 import Image from "next/image";
-import emailjs from "@emailjs/browser";
+import error from "next/error";
+// import emailjs from "@emailjs/browser";
 
 const kalam = Kalam({ weight: "400", subsets: ["latin"] });
 
 export function ContactSection() {
+
+  {
+    /*
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState(false);
 
@@ -34,6 +38,8 @@ export function ContactSection() {
         }
       );
   };
+  */
+  }
 
   return (
     <div className="rounded-lg w-[1820px] h-[528px] ml-10 bg-surfaceprimary flex flex-row items-center justify-between">
@@ -89,17 +95,12 @@ export function ContactSection() {
             target="_blank"
             className="rounded-lg bg-surfaces size-10 flex items-center justify-center"
           >
-            <Image
-              src="/whatsapp.svg"
-              alt=""
-              width={24}
-              height={24}
-            />
+            <Image src="/whatsapp.svg" alt="" width={24} height={24} />
           </a>
         </div>
       </div>
       <div className="mr-[72px]">
-        <form onSubmit={sendEmail} ref={form} className="">
+        <form className="">
           <div className="">
             <input
               placeholder="Name"
@@ -131,6 +132,7 @@ export function ContactSection() {
           >
             Send me a message <ArrowRight size={24} className="ml-2" />
           </button>
+          {/*
           {success && (
             <span className="text-green-600 font-semibold flex mt-3">
               Your message has been sent successfully!
@@ -141,6 +143,7 @@ export function ContactSection() {
               Something went wrong!
             </span>
           )}
+          */}
         </form>
       </div>
     </div>
