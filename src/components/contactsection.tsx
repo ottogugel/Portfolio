@@ -42,7 +42,7 @@ export function ContactSection() {
   }
 
   return (
-    <div className="rounded-lg w-[1820px] h-[528px] ml-10 bg-surfaceprimary flex flex-row items-center justify-between">
+    <section id="contact" className="rounded-lg w-[1820px] h-[528px] ml-10 bg-surfaceprimary flex flex-row items-center justify-between">
       <div className="ml-[136px] relative">
         <Image src="/avatar.svg" alt="" width={220} height={220} />
         <h1
@@ -146,6 +146,6 @@ export function ContactSection() {
           */}
         </form>
       </div>
-    </div>
+    </section>
   );
 }

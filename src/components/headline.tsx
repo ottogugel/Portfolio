@@ -6,7 +6,7 @@ const kalam = Kalam({ weight: "400", subsets: ["latin"] });
 
 export function Headline() {
   return (
-    <div className="mt-24 ml-40  rounded-lg w-[592px] h-[298px]">
+    <section id="home" className="mt-24 ml-40  rounded-lg w-[592px] h-[298px]">
       <div className="mb-8 r-5">
         <h1 className={`${kalam.className} text-5xl text-primary font-normal`}>
           Hi, I'm Otto
@@ -29,6 +29,6 @@ export function Headline() {
           Get in Touch <ArrowRight size={24} />
         </button>
       </div>
-    </div>
+    </section>
   );
 }

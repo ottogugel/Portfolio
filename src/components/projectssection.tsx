@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function ProjectsSection() {
   return (
-    <div className="flex flex-col items-center">
+    <section id="projects" className="flex flex-col items-center">
       <h1 className="text-strokehigh">Projects</h1>
       <p className="text-primary font-medium text-2xl mt-2">
         Take a look at my highlighted projects
@@ -85,6 +85,6 @@ export function ProjectsSection() {
           See all <ArrowRight size={24} className="ml-2" />
         </button>
       </div>
-    </div>
+    </section>
   );
 }

@@ -7,7 +7,7 @@ const kalam = Kalam({ weight: "400", subsets: ['latin'] });
 
 export function AboutSection() {
   return (
-    <div className="rounded-lg w-[1820px] h-[540px] ml-10 bg-surfaces flex flex-row items-center justify-center gap-2">
+    <section id="about" className="rounded-lg w-[1820px] h-[540px] ml-10 bg-surfaces flex flex-row items-center justify-center gap-2">
       <div className="ml-28">
         <Image src="/bro3.svg" alt="" width={800} height={800} />
       </div>
@@ -33,6 +33,6 @@ export function AboutSection() {
           <ReadCvLogo size={24} className="mr-1" /> My Resume
         </button>
       </div>
-    </div>
+    </section>
   );
 }
