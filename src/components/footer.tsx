@@ -12,21 +12,21 @@ export function Footer() {
         <a
           href="https://github.com/ottogugel"
           target="_blank"
-          className="text-base font-normal"
+          className="text-base font-normal hover:text-white"
         >
           GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/ottogugel/"
           target="_blank"
-          className="text-base font-normal"
+          className="text-base font-normal hover:text-white"
         >
           LinkedIn
         </a>
         <a
           href="https://wa.me/5583991279742"
           target="_blank"
-          className="text-base font-normal"
+          className="text-base font-normal hover:text-white"
         >
           Whatsapp
         </a>
