@@ -10,7 +10,7 @@ export function ProjectsSection() {
       </p>
 
       <div className="grid grid-cols-3 w-[1216px] h-[344px] mt-10">
-        <div className="w-[384px] h-[344px] bg-surfaceprimary border-surfaceprimary border-2 hover:border-highlight hover:shadow-card pt-6 rounded-lg ">
+        <div className="w-[384px] h-[344px] bg-surfaceprimary border-surfaceprimary border hover:border-highlight hover:shadow-card pt-6 rounded-lg ">
           <Image
             src="/esports.svg"
             alt=""
@@ -33,7 +33,7 @@ export function ProjectsSection() {
             find partners for their favorite games.
           </p>
         </div>
-        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg hover:scale-110 duration-500 ">
+        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg border-surfaceprimary border hover:border-highlight hover:shadow-card ">
           <Image
             src="/orders.svg"
             alt=""
@@ -56,7 +56,7 @@ export function ProjectsSection() {
             was developed.
           </p>
         </div>
-        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg hover:scale-110 duration-500">
+        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg border-surfaceprimary border hover:border-highlight hover:shadow-card">
           <Image
             src="/doctorcare2.svg"
             alt=""
@@ -81,7 +81,7 @@ export function ProjectsSection() {
         </div>
       </div>
       <div className="flex items-center justify-center pt-10">
-        <button className="text-buttonprimary font-medium text-base flex bg-surfaces hover:bg-white/30 rounded-lg w-32 h-14 items-center justify-center mt-8">
+        <button className="text-buttonprimary font-medium text-base flex bg-surfaces hover:bg-white/20 rounded-lg w-32 h-14 items-center justify-center mt-8">
           See all <ArrowRight size={24} className="ml-2" />
         </button>
       </div>

@@ -20,8 +20,8 @@ const config: Config = {
         highlight: "#7DFFAF",
       },
       boxShadow: {
-        card: "0px 0px 20px 0px #7DFFAF"
-      }
+        card: "0px 0px 20px 0px #7DFFAF",
+      },
     },
   },
   plugins: [],
