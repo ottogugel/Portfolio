@@ -80,6 +80,7 @@ export function ContactSection() {
             />
             <input
               placeholder="Name"
+              name="user_name"
               type="text"
               className="bg-surface focus:border focus-visible:outline-none focus:border-highlight text-secondary rounded-lg p-3 w-[488px]"
             />
