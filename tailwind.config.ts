@@ -8,21 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundColor: {
+      colors: {
         surface: "#171023",
         surfaceprimary: "#2C243B",
         surfaces: "#413A4F",
         purples: "#8A42DB",
-      },
-      textColor: {
         primary: "#F5F6F6",
         secondary: "#CDD0D4",
         buttonprimary: "#F5F6F6",
         strokehigh: "#7DFFAF",
-      },
-      borderColor: {
         highlight: "#7DFFAF",
       },
+      boxShadow: {
+        card: "0px 0px 20px 0px #7DFFAF"
+      }
     },
   },
   plugins: [],

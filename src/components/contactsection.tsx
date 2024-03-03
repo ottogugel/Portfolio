@@ -1,48 +1,16 @@
-'use client'
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
 import { Kalam } from "next/font/google";
-import { useRef, useState } from "react";
 import Image from "next/image";
-import error from "next/error";
-// import emailjs from "@emailjs/browser";
 
 const kalam = Kalam({ weight: "400", subsets: ["latin"] });
 
 export function ContactSection() {
 
-  {
-    /*
-  const [success, setSuccess] = useState(false)
-  const [error, setError] = useState(false);
-
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-    setSuccess(false)
-    setError(false)
-
-    emailjs
-      .sendForm(
-        process.env.NEXT_PUBLIC_SERVICE_ID,
-        process.env.NEXT_PUBLIC_TEMPLATE_ID,
-        form.current,
-        process.env.NEXT_PUBLIC_PUBLIC_KEY
-      )
-      .then((result) => {
-          setSuccess(true);
-          form.current.reset();
-        },
-        (error) => {
-          setError(true);
-        }
-      );
-  };
-  */
-  }
-
   return (
-    <section id="contact" className="rounded-lg w-[1820px] h-[528px] ml-10 bg-surfaceprimary flex flex-row items-center justify-between">
+    <section
+      id="contact"
+      className="rounded-lg w-[1820px] h-[528px] ml-10 bg-surfaceprimary flex flex-row items-center justify-between"
+    >
       <div className="ml-[136px] relative">
         <Image src="/avatar.svg" alt="" width={220} height={220} />
         <h1
@@ -100,11 +68,18 @@ export function ContactSection() {
         </div>
       </div>
       <div className="mr-[72px]">
-        <form className="">
+        <form
+          action="https://formsubmit.co/ottogugel99@gmail.com"
+          method="POST"
+        >
           <div className="">
             <input
+              type="hidden"
+              name="_next"
+              value="https://ottogugel.vercel.app/"
+            />
+            <input
               placeholder="Name"
-              name="user_name"
               type="text"
               className="bg-surface focus:border focus-visible:outline-none focus:border-highlight text-secondary rounded-lg p-3 w-[488px]"
             />
@@ -132,18 +107,6 @@ export function ContactSection() {
           >
             Send me a message <ArrowRight size={24} className="ml-2" />
           </button>
-          {/*
-          {success && (
-            <span className="text-green-600 font-semibold flex mt-3">
-              Your message has been sent successfully!
-            </span>
-          )}
-          {error && (
-            <span className="text-red-600 font-semibold flex mt-3">
-              Something went wrong!
-            </span>
-          )}
-          */}
         </form>
       </div>
     </section>

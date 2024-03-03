@@ -10,7 +10,7 @@ export function ProjectsSection() {
       </p>
 
       <div className="grid grid-cols-3 w-[1216px] h-[344px] mt-10">
-        <div className="w-[384px] h-[344px] bg-surfaceprimary hover:scale-110 duration-500 pt-6 rounded-lg ">
+        <div className="w-[384px] h-[344px] bg-surfaceprimary border-surfaceprimary border-2 hover:border-highlight hover:shadow-card pt-6 rounded-lg ">
           <Image
             src="/esports.svg"
             alt=""
