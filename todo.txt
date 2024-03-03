@@ -1,3 +1,2 @@
-Implementar o EmailJS
-
-dentro da tag form incluir onSubmit={sendEmail} ref={form}
+criar componente de button para todas as telas
+criar componente iconbutton para o projectsection

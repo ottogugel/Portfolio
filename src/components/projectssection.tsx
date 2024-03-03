@@ -1,4 +1,5 @@
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
+import { ArrowUpRight } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import Image from "next/image";
 
 export function ProjectsSection() {
@@ -10,14 +11,34 @@ export function ProjectsSection() {
       </p>
 
       <div className="grid grid-cols-3 w-[1216px] h-[344px] mt-10">
-        <div className="w-[384px] h-[344px] bg-surfaceprimary border-surfaceprimary border hover:border-highlight hover:shadow-card pt-6 rounded-lg ">
-          <Image
-            src="/esports.svg"
-            alt=""
-            width={336}
-            height={160}
-            className="ml-6 rounded-sm"
-          />
+        <div className="w-[384px] h-[344px] bg-surfaceprimary border-surfaceprimary border hover:border-highlight hover:shadow-card pt-6 rounded-lg group">
+          <div className="relative">
+            <Image
+              src="/esports.svg"
+              alt=""
+              width={336}
+              height={160}
+              className="ml-6 rounded-sm"
+            />
+            <a
+              href="https://github.com/ottogugel/nlw-esports-ignite-main"
+              target="_blank"
+              className="size-12 absolute bottom-28 right-4 flex items-center justify-center rounded-lg bg-surface invisible group-hover:visible shadow-bottom hover:scale-105"
+            >
+              <Image
+                src="/github.svg"
+                alt="Github Icon"
+                width={24}
+                height={24}
+              />
+            </a>
+            <a
+              href="#"
+              className="size-12 absolute bottom-14 right-4 flex items-center justify-center rounded-lg bg-surface invisible group-hover:visible shadow-bottom"
+            >
+              <ArrowUpRight size={24} color="white" />
+            </a>
+          </div>
           <div className="flex flex-row justify-between px-5 pt-4">
             <strong className="text-primary text-xl font-medium flex">
               eSports
@@ -33,14 +54,34 @@ export function ProjectsSection() {
             find partners for their favorite games.
           </p>
         </div>
-        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg border-surfaceprimary border hover:border-highlight hover:shadow-card ">
-          <Image
-            src="/orders.svg"
-            alt=""
-            width={336}
-            height={160}
-            className="ml-6 rounded-sm"
-          />
+        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg border-surfaceprimary border hover:border-highlight hover:shadow-card group">
+          <div className="relative">
+            <Image
+              src="/orders.svg"
+              alt=""
+              width={336}
+              height={160}
+              className="ml-6 rounded-sm"
+            />
+            <a
+              href="https://github.com/ottogugel/nlw-expert-rn"
+              target="_blank"
+              className="size-12 absolute bottom-28 right-4 flex items-center justify-center rounded-lg bg-surface invisible group-hover:visible shadow-bottom hover:scale-105"
+            >
+              <Image
+                src="/github.svg"
+                alt="Github Icon"
+                width={24}
+                height={24}
+              />
+            </a>
+            <a
+              href="#"
+              className="size-12 absolute bottom-14 right-4 flex items-center justify-center rounded-lg bg-surface invisible group-hover:visible shadow-bottom"
+            >
+              <ArrowUpRight size={24} color="white" />
+            </a>
+          </div>
           <div className="flex flex-row justify-between px-5 pt-4">
             <strong className="text-primary text-xl font-medium flex">
               Orders
@@ -56,14 +97,34 @@ export function ProjectsSection() {
             was developed.
           </p>
         </div>
-        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg border-surfaceprimary border hover:border-highlight hover:shadow-card">
-          <Image
-            src="/doctorcare2.svg"
-            alt=""
-            width={336}
-            height={160}
-            className="ml-6 rounded-sm"
-          />
+        <div className="w-[384px] h-[344px] bg-surfaceprimary pt-6 rounded-lg border-surfaceprimary border hover:border-highlight hover:shadow-card group">
+          <div className="relative">
+            <Image
+              src="/doctorcare2.svg"
+              alt=""
+              width={336}
+              height={160}
+              className="ml-6 rounded-sm"
+            />
+            <a
+              href="https://github.com/ottogugel/DoctorCare"
+              target="_blank"
+              className="size-12 absolute bottom-28 right-4 flex items-center justify-center rounded-lg bg-surface invisible group-hover:visible shadow-bottom hover:scale-105 cursor-pointer"
+            >
+              <Image
+                src="/github.svg"
+                alt="Github Icon"
+                width={24}
+                height={24}
+              />
+            </a>
+            <a
+              href="#"
+              className="size-12 absolute bottom-14 right-4 flex items-center justify-center rounded-lg bg-surface invisible group-hover:visible shadow-bottom"
+            >
+              <ArrowUpRight size={24} color="white" />
+            </a>
+          </div>
           <div className="flex flex-row justify-between px-5 pt-4">
             <strong className="text-primary text-xl font-medium flex">
               DoctorCare
