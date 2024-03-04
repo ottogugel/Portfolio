@@ -14,7 +14,7 @@ export function Navbar() {
         </a>
       </div>
       <div className="md:flex md:gap-4 md:pr-10">
-        <a href="#home" className="md:text-primary md:font-bold">
+        <a href="#" className="md:text-primary md:font-bold">
           Home
         </a>
         <a

@@ -1,2 +1,3 @@
 criar componente de button para todas as telas
 criar componente iconbutton para o projectsection
+responsividade para tela mobile e tela desktopdd

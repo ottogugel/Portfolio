@@ -6,7 +6,7 @@ const kalam = Kalam({ weight: "400", subsets: ["latin"] });
 
 export function Headline() {
   return (
-    <section id="home" className="mt-24 ml-40  rounded-lg w-[592px] h-[298px]">
+    <section className="mt-24 ml-40  rounded-lg w-[592px] h-[298px]">
       <div className="mb-8 r-5">
         <h1
           className={`${kalam.className} text-5xl font-normal text-transparent bg-[linear-gradient(180deg,#9955E8_0%,#7BFFAF_90%)] bg-clip-text`}
