@@ -30,7 +30,9 @@ export function Footer() {
         >
           Whatsapp
         </a>
-        <ArrowUp size={24} className="relative" />
+        <a href="#">
+        <ArrowUp size={24} />
+        </a>
       </div>
     </div>
   );
