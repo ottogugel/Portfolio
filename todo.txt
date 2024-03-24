@@ -1,3 +1,4 @@
 criar componente de button para todas as telas
 criar componente iconbutton para o projectsection
 responsividade para tela mobile e tela desktopdd
+trocar de idioma quando pressionar o botão de EN (no caso se estiver EN permanecer em inglês se trocar para PT a página toda vai para português - brasil)

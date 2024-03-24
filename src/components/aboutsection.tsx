@@ -7,7 +7,10 @@ const kalam = Kalam({ weight: "400", subsets: ['latin'] });
 
 export function AboutSection() {
   return (
-    <section id="about" className="rounded-lg w-[1820px] h-[540px] ml-10 bg-surfaces flex flex-row items-center justify-center gap-2">
+    <section
+      id="about"
+      className="rounded-lg w-[1820px] h-[540px] ml-10 bg-surfaces flex flex-row items-center justify-center gap-2"
+    >
       <div className="ml-28">
         <Image src="/bro3.svg" alt="" width={800} height={800} />
       </div>
@@ -29,9 +32,12 @@ export function AboutSection() {
           company in the United States or Europe and am excited about the
           prospect of relocating to pursue new challenges.
         </span>
-        <button className="text-buttonprimary font-medium text-base flex bg-purples hover:bg-purple-800 rounded-lg w-40 h-14 items-center justify-center mt-8">
+        <a
+          href="https://www.dropbox.com/scl/fi/a8au29tmlekcfmijb6wkw/Curriculum-Vitae.pdf?rlkey=gvnf5nuqvlmtuvonm95j5az34&dl=0"
+          className="text-buttonprimary font-medium text-base flex bg-purples hover:bg-purple-800 rounded-lg w-40 h-14 items-center justify-center mt-8"
+        >
           <ReadCvLogo size={24} className="mr-1" /> My Resume
-        </button>
+        </a>
       </div>
     </section>
   );

@@ -142,9 +142,13 @@ export function ProjectsSection() {
         </div>
       </div>
       <div className="flex items-center justify-center pt-10">
-        <button className="text-buttonprimary font-medium text-base flex bg-surfaces hover:bg-white/20 rounded-lg w-32 h-14 items-center justify-center mt-8">
+        <a
+          href="https://github.com/ottogugel?tab=repositories"
+          target="_blank"
+          className="text-buttonprimary font-medium text-base flex bg-surfaces hover:bg-white/20 rounded-lg w-32 h-14 items-center justify-center mt-8"
+        >
           See all <ArrowRight size={24} className="ml-2" />
-        </button>
+        </a>
       </div>
     </section>
   );
