@@ -1,10 +1,32 @@
+'use client'
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
 import { ArrowUpRight } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import Image from "next/image";
+import { motion } from "framer-motion";
+
+const animProps = {
+  initial: {
+    opacity: 0,
+    x: -100,
+  },
+  whileInView: {
+    opacity: 1,
+    x: 0,
+  },
+  exit: {
+    opacity: 0,
+    x: -100,
+  },
+};
 
 export function ProjectsSection() {
   return (
-    <section id="projects" className="flex flex-col items-center">
+    <motion.section
+      id="projects"
+      className="flex flex-col items-center"
+      {...animProps}
+      transition={{ duration: 0.7 }}
+    >
       <h1 className="text-strokehigh">Projects</h1>
       <p className="text-primary font-medium text-2xl mt-2">
         Take a look at my highlighted projects
@@ -150,6 +172,6 @@ export function ProjectsSection() {
           See all <ArrowRight size={24} className="ml-2" />
         </a>
       </div>
-    </section>
+    </motion.section>
   );
 }

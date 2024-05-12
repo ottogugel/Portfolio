@@ -1,20 +1,19 @@
 'use client'
 import { Kalam } from "next/font/google";
-import { useState } from "react";
+import { motion } from "framer-motion";
+import Toggle from "./ui/toggle";
 
 const kalam = Kalam({ weight: "400", subsets: ["latin"] });
 
 export function Navbar() {
 
-  const [isPortuguese, setIsPortuguese] = useState(false)
-  const [isEnglish, setIsEnglish] = useState(true)
-
-  const changeLanguage = () => {
-    setIsEnglish((previsEnglish) => !previsEnglish);
-  }
-
   return (
-    <div className="md:flex md:items-center md:justify-between md:fixed md:gap-[1421px]">
+    <motion.div
+      className="md:inline-flex md:items-center md:justify-center md:fixed md:gap-[1440px] z-10 left-0 right-0 mt-5"
+      initial={{ top: -100 }}
+      animate={{ top: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="md:pl-10">
         <a
           href="#"
@@ -48,13 +47,8 @@ export function Navbar() {
         >
           Contact
         </a>
-        <button
-          className="md:text-secondary md:font-normal md:hover:text-gray-50"
-          onClick={changeLanguage}
-        >
-          {isEnglish ? <h1>EN</h1> : <h1>PT</h1>}
-        </button>
+        <Toggle />
       </div>
-    </div>
+    </motion.div>
   );
 }

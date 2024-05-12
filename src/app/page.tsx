@@ -13,14 +13,8 @@ export default function Home() {
         <Navbar />
       </div>
 
-      <div className="mt-10 h-[609px] flex flex-row">
+      <div className="mt-10 h-[609px] flex">
         <Headline />
-
-        <div className="mt-24 ml-72 rounded-lg">
-          <div className="mb-8 r-5">
-            <Image src="/bro1.svg" alt="" width={500} height={500} />
-          </div>
-        </div>
       </div>
 
       <div className="h-[620px]">

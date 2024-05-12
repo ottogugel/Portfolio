@@ -1,6 +1,23 @@
+'use client'
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
 import { Kalam } from "next/font/google";
 import Image from "next/image";
+import { motion } from "framer-motion";
+
+const animProps = {
+  initial: {
+    opacity: 0,
+    x: -100,
+  },
+  whileInView: {
+    opacity: 1,
+    x: 0,
+  },
+  exit: {
+    opacity: 0,
+    x: -100,
+  },
+};
 
 const kalam = Kalam({ weight: "400", subsets: ["latin"] });
 
