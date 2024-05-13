@@ -30,7 +30,7 @@ const ThemeSwitch = (props: SwitchProps) => {
             class: [
               "flex items-center justify-center",
               "rounded-lg",
-              "h-6 w-6"
+              "h-6 w-6 bg-zinc-700 hover:bg-zinc-800"
             ],
           })}
         >
